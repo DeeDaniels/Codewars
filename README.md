@@ -1,2 +1,2 @@
-# Javascript
-all my js work
+# Codewars
+all my codewar solutions
