@@ -1,2 +1,2 @@
 # Codewars
-This is a collectionof my daily Codewar exercises.
+This is a collection of my daily Codewar exercises.
