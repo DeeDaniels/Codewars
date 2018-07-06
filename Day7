@@ -1,0 +1,25 @@
+Question:
+Sum all the numbers of the array (in F# and Haskell you get a list) except the highest and the lowest element (the value, not the index!).
+(The highest/lowest element is respectively only one element at each edge, even if there are more than one with the same value!)
+
+
+
+Souliton:
+function sumArray(array) {
+  if(array==null){
+    return 0;
+  }else{
+    var arrayLen = array.length;
+    if(arrayLen==0||arrayLen==1){
+      return 0;
+    }else {
+      var sum = 0;
+      for( index in array){
+        if(!Number.isNaN(array[index])){
+          sum = sum + array[index];
+        }
+      }
+      return sum - Math.max.apply(null, array) - Math.min.apply(null, array);
+    }
+  }
+}
