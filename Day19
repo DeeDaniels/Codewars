@@ -1,0 +1,12 @@
+Returning Strings
+
+Make a function that will return a greeting statement that uses an input; 
+your program should return, "Hello, <name> how are you doing today?".
+
+SOLUTION:
+
+function greet(name){
+  var name = name;
+  var hi = "Hello, "+ name + " how are you doing today?"
+  return hi
+}
